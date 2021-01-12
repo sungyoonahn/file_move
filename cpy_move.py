@@ -3,7 +3,7 @@ import shutil
 import os
 
 path = "imgs_aug_json/"
-for file in pathlib.Path("fuc/").glob("*.json"):
+for file in pathlib.Path("try/").glob("*.json"):
     print(file)
     file = str(file)
     file_name = file.split("/")[1].split(".")[0]
